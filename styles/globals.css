@@ -26,7 +26,7 @@
   --h3-font-size: 1.125rem;
   --normal-font-size: .938rem;
   --small-font-size: .813rem;
-  --smaaller-font-size: .75rem;
+  --smaller-font-size: .75rem;
 
   --font-medium: 500;
   --font-semi-bold: 600;
@@ -57,7 +57,7 @@
     --h3-font-size: 1.25rem;
     --normal-font-size: 1rem;
     --small-font-size: .875rem;
-    --smaaller-font-size: .813rem;
+    --smaller-font-size: .813rem;
   }
 }
 
