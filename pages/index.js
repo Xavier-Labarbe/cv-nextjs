@@ -1,11 +1,9 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import * as Unicons from '@iconscout/react-unicons';
+import Header from "./components/header";
 
 export default function Home() {
   return (
     <div>
-      <Unicons.Uil/>
+      <Header/>
     </div>
   )
 }
