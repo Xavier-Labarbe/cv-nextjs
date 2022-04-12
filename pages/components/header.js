@@ -34,37 +34,37 @@ export default function Header() {
                     <ul className={"nav__list grid"}>
                         <li className={"nav__item"}>
                             <a href="#home" className={"nav__link"}>
-                                <Unicons.UilEstate className={"nav__icon"}/>
+                                <i className="uil uil-estate nav__icon"></i>
                                 Home
                             </a>
                         </li>
                         <li className={"nav__item"}>
                             <a href="#about" className={"nav__link"}>
-                                <Unicons.UilUser className={"nav__icon"}/>
+                                <i className="uil uil-user nav__icon"></i>
                                 About
                             </a>
                         </li>
                         <li className={"nav__item"}>
                             <a href="#skills" className={"nav__link"}>
-                                <Unicons.UilFileAlt className={"nav__icon"}/>
+                                <i className="uil uil-file-alt nav__icon"></i>
                                 Skills
                             </a>
                         </li>
                         <li className={"nav__item"}>
                             <a href="#services" className={"nav__link"}>
-                                <Unicons.UilBriefcaseAlt className={"nav__icon"}/>
+                                <i className="uil uil-briefcase-alt nav__icon"></i>
                                 Services
                             </a>
                         </li>
                         <li className={"nav__item"}>
                             <a href="#portfolio" className={"nav__link"}>
-                                <Unicons.UilScenery className={"nav__icon"}/>
+                                <i className="uil uil-scenery nav__icon"></i>
                                 Portfolio
                             </a>
                         </li>
                         <li className={"nav__item"}>
                             <a href="#contact" className={"nav__link"}>
-                                <Unicons.UilMessage className={"nav__icon"}/>
+                                <i className="uil uil-message nav__icon"></i>
                                 Contact me
                             </a>
                         </li>
@@ -74,7 +74,7 @@ export default function Header() {
 
                 <div className="navv__btns">
                     <div className={"nav__toggle"} ref={navToggle}>
-                        <Unicons.UilApps/>
+                        <i className="uil uil-apps"></i>
                     </div>
                 </div>
             </nav>
