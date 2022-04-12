@@ -1,12 +1,28 @@
 import * as Unicons from "@iconscout/react-unicons";
 import {useEffect, useRef} from "react";
-import {render} from "react-dom";
 
 export default function Header() {
     const navMenu = useRef(),
         navToggle = useRef(),
         navClose = useRef()
+    let nav__link
 
+    useEffect(() => {
+        if(navToggle && navToggle.current){
+            navToggle.current.addEventListener('click', () => {
+                navMenu.current.classList.add('show-menu')
+            });
+        }
+        if(navClose && navClose.current){
+            navClose.current.addEventListener('click', () => {
+                navMenu.current.classList.remove('show-menu')
+            })
+        }
+        nav__link = document.querySelectorAll(".nav__link")
+        nav__link.forEach(n => n.addEventListener('click', () => {
+            navMenu.current.classList.remove('show-menu')
+        }))
+    }, [])
 
     return (
         <header className={"header"} id={"header"}>
