@@ -30,7 +30,7 @@ export default function About(){
                     </div>
 
                     <div className="about__buttons">
-                        <a download={""} href="/public/pdf/CV_Xavier_Labarbe.pdf" className="button button--flex">
+                        <a download={""} href="/api/getCV" className="button button--flex">
                             Télécharger CV
                             <i className="uil uil-download-alt button__icon"></i>
                         </a>
