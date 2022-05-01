@@ -9,12 +9,12 @@ export default function Home() {
                     <div className={"home__social"}>
                         <a href="https://www.linkedin.com/in/xavier-labarbe/" target={"_blank"}
                            className={"home__social-icon"}>
-                            <i className="uil uil-linkedin"></i>
+                            <i className="uil uil-linkedin"/>
                         </a>
                         <a href="https://github.com/Xavier-Labarbe" target={"_blank"} className={"home__social-icon"}>
-                            <i className="uil uil-github-alt"></i>
+                            <i className="uil uil-github-alt"/>
                         </a>
-                        <a href="" className={"home__social-icon"}></a>
+                        <a href="" className={"home__social-icon"}/>
                     </div>
 
                     <div className={"home__img"}>
