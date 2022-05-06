@@ -15,7 +15,7 @@ export default function About(){
                     <div className="about__info">
                         <div>
                             <span className="about__info-title">01</span>
-                            <span className="about__info-name">Année <br/> d&apos;experience </span>
+                            <span className="about__info-name">Année <br/> d'experience </span>
                         </div>
 
                         <div>
@@ -25,7 +25,7 @@ export default function About(){
 
                         <div>
                             <span className="about__info-title">2</span>
-                            <span className="about__info-name">Entreprises <br/> m&apos;ont employé</span>
+                            <span className="about__info-name">Entreprises <br/> m'ont employé</span>
                         </div>
                     </div>
 
