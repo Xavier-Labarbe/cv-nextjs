@@ -1,23 +1,17 @@
-import {useEffect, useRef} from "react";
+import {useEffect, useRef, useState} from "react";
+
+function getStatus(status){
+    if(status === "skills__content skills__close"){
+        return "skills__content skills__open";
+    }
+    if(status === "skills__content skills__open"){
+        return "skills__content skills__close";
+    }
+}
 
 export default function Skills() {
-    const front = useRef(),
-        back = useRef()
-
-    useEffect(() => {
-        if (front && front.current && front.current.classList[1] == "skills__open") {
-            front.current.addEventListener('click', () => {
-                front.current.classList.remove('skills__open')
-                front.current.classList.add('skills__close')
-            });
-        }
-        if (front && front.current && front.current.classList[1] == "skills__close") {
-            front.current.addEventListener('click', () => {
-                front.current.classList.remove('skills__close')
-                front.current.classList.add('skills__open')
-            });
-        }
-    }, [])
+    const [front, setFront] = useState("skills__content skills__open");
+    const [back, setBack] = useState("skills__content skills__close");
     return (
         <section className={"skills section"} id={"skills"}>
             <h2 className="section__title">Skills</h2>
@@ -25,7 +19,7 @@ export default function Skills() {
 
             <div className="skills_container container grid">
                 <div>
-                    <div className="skills__content skills__open" ref={front}>
+                    <div className={front} onClick={()=> {setFront(getStatus(front))}}>
                         <div className="skills__header">
                             <i className={"uil uil-brackets-curly skills__icon"}/>
 
@@ -80,7 +74,7 @@ export default function Skills() {
                         </div>
                     </div>
 
-                    <div className="skills__content skills__close" ref={back}>
+                    <div className={back} onClick={()=> {setBack(getStatus(back))}}>
                         <div className="skills__header">
                             <i className={"uil uil-server-network skills__icon"}/>
 
