@@ -32,7 +32,7 @@ export default function Home() {
                         <h1 className={"home__title"}>Bonjour, je suis Xavier</h1>
                         <h3 className={"home__subtitle"}>Je recherche un contrat de professionalisation</h3>
                         <p className={"home__description"}>Spécialisé dans le développement, je recherche actuellement
-                            une entreprise afin de m&aps;accueuillir pour réaliser la dernière année de mon cursus ingénieur.</p>
+                            une entreprise afin de m'accueuillir pour réaliser la dernière année de mon cursus ingénieur.</p>
                         <a href="#contact" className={"button button--flex"}>
                             Contactez-moi
                             <i className={"uil uil-message button__icon"}></i>
