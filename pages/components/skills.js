@@ -1,6 +1,6 @@
-import {useEffect, useRef, useState} from "react";
+import {useState} from "react";
 
-function getStatus(status){
+function changeStatus(status){
     if(status === "skills__content skills__close"){
         return "skills__content skills__open";
     }
@@ -19,7 +19,7 @@ export default function Skills() {
 
             <div className="skills_container container grid">
                 <div>
-                    <div className={front} onClick={()=> {setFront(getStatus(front))}}>
+                    <div className={front} onClick={()=> {setFront(changeStatus(front))}}>
                         <div className="skills__header">
                             <i className={"uil uil-brackets-curly skills__icon"}/>
 
@@ -74,7 +74,7 @@ export default function Skills() {
                         </div>
                     </div>
 
-                    <div className={back} onClick={()=> {setBack(getStatus(back))}}>
+                    <div className={back} onClick={()=> {setBack(changeStatus(back))}}>
                         <div className="skills__header">
                             <i className={"uil uil-server-network skills__icon"}/>
 

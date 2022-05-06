@@ -15,7 +15,7 @@ export default function About(){
                     <div className="about__info">
                         <div>
                             <span className="about__info-title">01</span>
-                            <span className="about__info-name">Année <br/> d'experience </span>
+                            <span className="about__info-name">Année <br/> d&apos;experience </span>
                         </div>
 
                         <div>
@@ -25,12 +25,12 @@ export default function About(){
 
                         <div>
                             <span className="about__info-title">2</span>
-                            <span className="about__info-name">Entreprises <br/> m'ont employé</span>
+                            <span className="about__info-name">Entreprises <br/> m&apos;ont employé</span>
                         </div>
                     </div>
 
                     <div className="about__buttons">
-                        <a download={""} href="/api/getCV" className="button button--flex">
+                        <a download href="/pdf/CV_Xavier_Labarbe.pdf" className="button button--flex">
                             Télécharger CV
                             <i className="uil uil-download-alt button__icon"></i>
                         </a>

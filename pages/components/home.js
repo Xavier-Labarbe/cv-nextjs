@@ -1,17 +1,13 @@
-import * as Unicons from "@iconscout/react-unicons";
-import perfil from '/public/img/perfil.png'
-
 export default function Home() {
     return (
         <section className={"home section"} id={"home"}>
             <div className={"home__container container grid"}>
                 <div className={"home__content grid"}>
                     <div className={"home__social"}>
-                        <a href="https://www.linkedin.com/in/xavier-labarbe/" target={"_blank"}
-                           className={"home__social-icon"}>
+                        <a href="https://www.linkedin.com/in/xavier-labarbe/" className={"home__social-icon"}>
                             <i className="uil uil-linkedin"/>
                         </a>
-                        <a href="https://github.com/Xavier-Labarbe" target={"_blank"} className={"home__social-icon"}>
+                        <a href="https://github.com/Xavier-Labarbe" className={"home__social-icon"}>
                             <i className="uil uil-github-alt"/>
                         </a>
                         <a href="" className={"home__social-icon"}/>
@@ -34,10 +30,9 @@ export default function Home() {
 
                     <div className={"home__data"}>
                         <h1 className={"home__title"}>Bonjour, je suis Xavier</h1>
-                        <h3 className={"home__subtitle"}>Etudiant en Ingénieurie Informatique</h3>
+                        <h3 className={"home__subtitle"}>Je recherche un contrat de professionalisation</h3>
                         <p className={"home__description"}>Spécialisé dans le développement, je recherche actuellement
-                            une entreprise afin de m'accueuillir pour réaliser la dernière année de mon cursus en
-                            contrat pro.</p>
+                            une entreprise afin de m&aps;accueuillir pour réaliser la dernière année de mon cursus ingénieur.</p>
                         <a href="#contact" className={"button button--flex"}>
                             Contactez-moi
                             <i className={"uil uil-message button__icon"}></i>
