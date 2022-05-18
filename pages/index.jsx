@@ -6,6 +6,7 @@ import Qualification from "./components/qualification";
 import Services from "./components/services";
 import Portfolio from "./components/portfolio";
 import Hiring from "./components/hiring";
+import Contact from "./components/contact";
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
             <Services></Services>
             <Portfolio></Portfolio>
             <Hiring></Hiring>
+            <Contact></Contact>
         </main>
     </div>
   )
