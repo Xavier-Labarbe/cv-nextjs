@@ -3,6 +3,7 @@ import Home from "./components/home";
 import About from "./components/about";
 import Skills from "./components/skills";
 import Qualification from "./components/qualification";
+import Services from "./components/services";
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
             <About/>
             <Skills/>
             <Qualification/>
+            <Services></Services>
         </main>
     </div>
   )

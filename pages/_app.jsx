@@ -4,6 +4,7 @@ import '../styles/button.css'
 import '../styles/about.css'
 import '../styles/skills.css'
 import '../styles/qualification.css'
+import '../styles/services.css'
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />
