@@ -12,10 +12,11 @@ function changeStatus(status){
 export default function Skills() {
     const [front, setFront] = useState("skills__content skills__open");
     const [back, setBack] = useState("skills__content skills__close");
+    const [software, setSoftware] = useState("skills__content skills__close")
     return (
         <section className={"skills section"} id={"skills"}>
             <h2 className="section__title">Skills</h2>
-            <span className="section__subtitle">My technical</span>
+            <span className="section__subtitle">Mes capacités techniques</span>
 
             <div className="skills_container container grid">
                 <div>
@@ -24,8 +25,8 @@ export default function Skills() {
                             <i className={"uil uil-brackets-curly skills__icon"}/>
 
                             <div>
-                                <h1 className="skills__title">Frontend developper</h1>
-                                <span className="skills__subtitle">More than 4 years</span>
+                                <h1 className="skills__title">Développeur Frontend</h1>
+                                <span className="skills__subtitle">Depuis 3 ans</span>
                             </div>
 
                             <i className={"uil uil-angle-down skills__arrow"}/>
@@ -79,8 +80,8 @@ export default function Skills() {
                             <i className={"uil uil-server-network skills__icon"}/>
 
                             <div>
-                                <h1 className="skills__title">Backend developper</h1>
-                                <span className="skills__subtitle">More than 4 years</span>
+                                <h1 className="skills__title">Développeur Backend</h1>
+                                <span className="skills__subtitle">Depuis 3 ans</span>
                             </div>
 
                             <i className={"uil uil-angle-down skills__arrow"}/>
@@ -109,6 +110,16 @@ export default function Skills() {
 
                             <div className="skills__data">
                                 <div className="skills__titles">
+                                    <h3 className="skills__name">Next.js</h3>
+                                    <span className="skills__number">50%</span>
+                                </div>
+                                <div className="skills__bar">
+                                    <span className="skills__percentage skills__next"></span>
+                                </div>
+                            </div>
+
+                            <div className="skills__data">
+                                <div className="skills__titles">
                                     <h3 className="skills__name">Laravel</h3>
                                     <span className="skills__number">60%</span>
                                 </div>
@@ -124,6 +135,51 @@ export default function Skills() {
                                 </div>
                                 <div className="skills__bar">
                                     <span className="skills__percentage skills__codeigniter"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className={software} onClick={()=> {setSoftware(changeStatus(software))}}>
+                        <div className="skills__header">
+                            <i className={"uil uil-server-network skills__icon"}/>
+
+                            <div>
+                                <h1 className="skills__title">Développeur Logiciel</h1>
+                                <span className="skills__subtitle">Depuis 1 ans</span>
+                            </div>
+
+                            <i className={"uil uil-angle-down skills__arrow"}/>
+                        </div>
+
+                        <div className="skills__list grid">
+                            <div className="skills__data">
+                                <div className="skills__titles">
+                                    <h3 className="skills__name">C#</h3>
+                                    <span className="skills__number">70%</span>
+                                </div>
+                                <div className="skills__bar">
+                                    <span className="skills__percentage skills__c"></span>
+                                </div>
+                            </div>
+
+                            <div className="skills__data">
+                                <div className="skills__titles">
+                                    <h3 className="skills__name">.Net Framework</h3>
+                                    <span className="skills__number">60%</span>
+                                </div>
+                                <div className="skills__bar">
+                                    <span className="skills__percentage skills__net"></span>
+                                </div>
+                            </div>
+
+                            <div className="skills__data">
+                                <div className="skills__titles">
+                                    <h3 className="skills__name">WinForm</h3>
+                                    <span className="skills__number">50%</span>
+                                </div>
+                                <div className="skills__bar">
+                                    <span className="skills__percentage skills__winform"></span>
                                 </div>
                             </div>
                         </div>
