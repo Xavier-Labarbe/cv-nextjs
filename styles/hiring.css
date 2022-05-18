@@ -1,0 +1,27 @@
+.hiring{
+    text-align: center;
+}
+
+.hiring__bg{
+    background-color: var(--first-color-second);
+    padding-top: 3rem;
+}
+
+.hiring__title{
+    font-size: var(--h2-font-size);
+    margin-bottom: var(--mb-0-75);
+}
+
+.hiring__description{
+    margin-bottom: var(--mb-1-5);
+}
+
+.hiring__title,
+.hiring__description{
+    color: #FFF;
+}
+
+.hiring__img{
+    width: 232px;
+    justify-self: center;
+}

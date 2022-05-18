@@ -5,6 +5,7 @@ import Skills from "./components/skills";
 import Qualification from "./components/qualification";
 import Services from "./components/services";
 import Portfolio from "./components/portfolio";
+import Hiring from "./components/hiring";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
             <Qualification/>
             <Services></Services>
             <Portfolio></Portfolio>
+            <Hiring></Hiring>
         </main>
     </div>
   )
