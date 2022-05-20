@@ -54,6 +54,7 @@
 }
 
 .skills__bar{
+    border-radius: .25rem;
     background: var(--first-color-lighter);
 }
 
