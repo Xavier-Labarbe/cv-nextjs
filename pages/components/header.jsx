@@ -1,5 +1,16 @@
 import {useState} from "react";
 
+function changeTheme(theme){
+    if(theme === "uil uil-moon change-theme"){
+        document.body.classList.add('dark-theme')
+        return "uil uil-sun change-theme";
+    }
+    if(theme === "uil uil-sun change-theme"){
+        document.body.classList.remove('dark-theme')
+        return "uil uil-moon change-theme";
+    }
+}
+
 function changeStatus(status){
     if(status === "nav__menu"){
         return "nav__menu show-menu";
@@ -11,6 +22,7 @@ function changeStatus(status){
 
 export default function Header() {
     const [show, setShow] = useState("nav__menu")
+    const [theme, setTheme] = useState("uil uil-moon change-theme")
 
     return (
         <header className={"header"} id={"header"}>
@@ -60,7 +72,9 @@ export default function Header() {
                     <i className="uil uil-times nav__close" onClick={()=> {setShow(changeStatus(show))}}></i>
                 </div>
 
-                <div className="navv__btns">
+                <div className="nav__btns">
+                    <i className={theme} onClick={() => setTheme(changeTheme(theme))}></i>
+
                     <div className={"nav__toggle"} onClick={()=> {setShow(changeStatus(show))}}>
                         <i className="uil uil-apps"></i>
                     </div>

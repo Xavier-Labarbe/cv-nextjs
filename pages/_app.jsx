@@ -10,6 +10,7 @@ import '../styles/hiring.css'
 import '../styles/contact.css'
 import '../styles/footer.css'
 import '../styles/scroll_up.css'
+import '../styles/theme.css'
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />
