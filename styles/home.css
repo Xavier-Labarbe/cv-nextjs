@@ -82,3 +82,13 @@
 .home__scroll-arrow{
     font-size: 1.25rem;
 }
+
+@media screen and (max-width: 350px) {
+    .home__content{
+      grid-template-columns: .25fr 3fr;
+    }
+  
+    .home__blob{
+      width: 180px;
+    }
+  }

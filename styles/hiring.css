@@ -25,3 +25,9 @@
     width: 232px;
     justify-self: center;
 }
+
+@media screen and (max-width: 350) {
+    .hiring__img{
+        width: 200px;
+    }
+}
