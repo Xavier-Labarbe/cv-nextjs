@@ -23,6 +23,10 @@
     color: var(--first-color-alt);
 }
 
+.home__img{
+    padding-left: 2rem;
+}
+
 .home__blob{
     width: 200px;
     fill: var(--first-color);
