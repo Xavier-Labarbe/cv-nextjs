@@ -7,21 +7,23 @@ import Services from "./components/services";
 import Portfolio from "./components/portfolio";
 import Hiring from "./components/hiring";
 import Contact from "./components/contact";
+import Footer from "./components/footer";
 
 export default function App() {
   return (
     <div>
       <Header/>
-        <main className="main">
-            <Home/>
-            <About/>
-            <Skills/>
-            <Qualification/>
-            <Services></Services>
-            <Portfolio></Portfolio>
-            <Hiring></Hiring>
-            <Contact></Contact>
-        </main>
+      <main className="main">
+        <Home/>
+        <About/>
+        <Skills/>
+        <Qualification/>
+        <Services></Services>
+        <Portfolio></Portfolio>
+        <Hiring></Hiring>
+        <Contact></Contact>
+      </main>
+      <Footer></Footer>
     </div>
   )
 }

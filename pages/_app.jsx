@@ -8,6 +8,7 @@ import '../styles/services.css'
 import '../styles/portfolio.css'
 import '../styles/hiring.css'
 import '../styles/contact.css'
+import '../styles/footer.css'
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />
