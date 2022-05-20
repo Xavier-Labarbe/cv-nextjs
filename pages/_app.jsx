@@ -9,6 +9,7 @@ import '../styles/portfolio.css'
 import '../styles/hiring.css'
 import '../styles/contact.css'
 import '../styles/footer.css'
+import '../styles/scroll_up.css'
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />

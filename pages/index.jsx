@@ -8,6 +8,7 @@ import Portfolio from "./components/portfolio";
 import Hiring from "./components/hiring";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
+import Scroll_up from "./components/scroll_up";
 
 export default function App() {
   return (
@@ -24,6 +25,7 @@ export default function App() {
         <Contact></Contact>
       </main>
       <Footer></Footer>
+      <Scroll_up></Scroll_up>
     </div>
   )
 }
