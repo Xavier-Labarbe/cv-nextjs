@@ -40,3 +40,9 @@
         align-items: center;
     }
 }
+
+@media screen and (min-width: 1024px){
+    .portfolio__content{
+      column-gap: 5rem;
+    }
+}

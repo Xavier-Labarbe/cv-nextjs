@@ -122,3 +122,13 @@
         width: 270px;
     }
 }
+
+@media screen and (min-width: 1024px){
+    .home__blob{
+      width: 320px;
+    }
+
+    .home__social{
+        transform: translateX(-6rem);
+    }
+}

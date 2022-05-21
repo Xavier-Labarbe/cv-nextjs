@@ -286,3 +286,10 @@ body.dark-theme{
     margin-left: auto;
   }
 }
+
+@media screen and (min-width: 1024px){
+  .header,
+  main{
+    padding: 0;
+  }
+}
