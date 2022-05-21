@@ -10,7 +10,12 @@ import Contact from "./components/contact";
 import Footer from "./components/footer";
 import Scroll_up from "./components/scroll_up";
 
+import {useEffect} from 'react'
+
 export default function App() {
+  useEffect(() => {
+    document.title = "Xavier Labarbe - CV"
+})
   return (
     <div>
       <Header/>
