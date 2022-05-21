@@ -29,7 +29,7 @@ function Contact(){
 
                         <div>
                             <h3 className="contact__title">Location</h3>
-                            <span className="contact__subtile">Bordeaux - 6 Sente des Morutiers - 33300</span>
+                            <span className="contact__subtile">6 Sente des Morutiers <br/> 33300 - Bordeaux</span>
                         </div>
                     </div>
                 </div>
