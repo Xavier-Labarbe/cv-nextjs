@@ -91,4 +91,34 @@
     .home__blob{
       width: 180px;
     }
-  }
+}
+
+@media screen and (min-width: 568px) {
+    .home__content{
+        grid-template-columns: max-content 1fr 1fr;
+    }
+
+    .home__data{
+        grid-column: initial;
+    }
+
+    .home__img{
+        order: 1;
+        justify-self: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .home__container{
+        row-gap: 5rem;
+    }
+
+    .home__content{
+        padding-top: 5.5rem;
+        column-gap: 2rem;
+    }
+
+    .home__blob{
+        width: 270px;
+    }
+}

@@ -65,7 +65,7 @@ export default function Header() {
                         <li className={"nav__item"}>
                             <a href="#contact" className={"nav__link"} onClick={()=> {setShow(changeStatus(show))}}>
                                 <i className="uil uil-message nav__icon"></i>
-                                Contact me
+                                Contact
                             </a>
                         </li>
                     </ul>

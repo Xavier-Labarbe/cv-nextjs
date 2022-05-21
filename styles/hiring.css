@@ -31,3 +31,31 @@
         width: 200px;
     }
 }
+
+@media screen and (min-width: 568px) {
+    .hiring__container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .hiring{
+        text-align: initial;
+    }
+
+    .hiring__bg{
+        background: none;
+    }
+
+    .hiring__container{
+        background-color: var(--first-color-second);
+        border-radius: 1rem;
+        padding: 3rem 2.5rem 0;
+        grid-template-columns: 1fr max-content;
+        column-gap: 3rem;
+    }
+
+    .hiring__data{
+        padding-top: .8rem;
+    }
+}

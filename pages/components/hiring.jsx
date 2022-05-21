@@ -6,7 +6,7 @@ function Hiring(){
         <section className="hiring ssection">
             <div className="hiring__bg">
                 <div className="hiring__container container grid">
-                    <div className="hring__data">
+                    <div className="hiring__data">
                         <h2 className="hiring__title">Vous voulez m'embaucher ?</h2>
                         <p className="hiring__description">Contactez moi dès maintenant !</p>
                         <a href="#contact" className="button button--flex button--white">

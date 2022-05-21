@@ -13,3 +13,9 @@
 .change-theme:hover{
     color: var(--first-color);
 }
+
+@media screen and (min-width: 768px) {
+    .change-theme{
+        margin: 0;
+    }
+}

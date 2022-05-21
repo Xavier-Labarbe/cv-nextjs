@@ -24,3 +24,19 @@
 .portfolio__button:hover .button__icon{
     transform: translateX(.25rem);
 }
+
+@media screen and (min-width: 568px) {
+    .portfolio__content{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .portfolio__img{
+        width: 320px;
+    }
+
+    .portfolio__content{
+        align-items: center;
+    }
+}

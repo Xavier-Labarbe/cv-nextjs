@@ -69,3 +69,25 @@
       gap: .5rem;
     }
   }
+
+@media screen and (min-width: 568px) {
+    .qualification__sections{
+      display: grid;
+      grid-template-columns: .6fr;
+      justify-content: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .qualification__tabs{
+        justify-content: center;
+    }
+
+    .qualification__button{
+        margin: 0 var(--mb-1);
+    }
+
+    .qualification__sections{
+        grid-template-columns: .5fr;
+    }
+}
