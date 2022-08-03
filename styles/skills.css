@@ -79,11 +79,19 @@
     width: 60%;
 }
 
+.skills__vue{
+    width: 70%;
+}
+
 .skills__php{
     width: 90%;
 }
 
 .skills__node{
+    width: 70%;
+}
+
+.skills__express{
     width: 70%;
 }
 
@@ -96,7 +104,7 @@
 }
 
 .skills__codeigniter{
-    width: 60%;
+    width: 70%;
 }
 
 .skills__c{

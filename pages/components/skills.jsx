@@ -76,6 +76,16 @@ export default function Skills() {
                 <span className="skills__percentage skills__react"></span>
               </div>
             </div>
+
+            <div className="skills__data">
+              <div className="skills__titles">
+                <h3 className="skills__name">VueJS</h3>
+                <span className="skills__number">70%</span>
+              </div>
+              <div className="skills__bar">
+                <span className="skills__percentage skills__vue"></span>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -119,6 +129,16 @@ export default function Skills() {
 
             <div className="skills__data">
               <div className="skills__titles">
+                <h3 className="skills__name">Express.js</h3>
+                <span className="skills__number">70%</span>
+              </div>
+              <div className="skills__bar">
+                <span className="skills__percentage skills__express"></span>
+              </div>
+            </div>
+
+            <div className="skills__data">
+              <div className="skills__titles">
                 <h3 className="skills__name">Next.js</h3>
                 <span className="skills__number">50%</span>
               </div>
@@ -140,7 +160,7 @@ export default function Skills() {
             <div className="skills__data">
               <div className="skills__titles">
                 <h3 className="skills__name">CodeIgniter</h3>
-                <span className="skills__number">60%</span>
+                <span className="skills__number">70%</span>
               </div>
               <div className="skills__bar">
                 <span className="skills__percentage skills__codeigniter"></span>
